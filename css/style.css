@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1em;
+  font: inherit;
+  vertical-align: baseline; }
+
+input, button {
+  font-family: "omnes-medium";
+  font-size: 1em;
+  outline: none; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote::before, blockquote::after {
+  content: '';
+  content: none; }
+
+q::before, q::after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: "omnes-regular";
+  src: url("fonts/omnes-regular-webfont.eot?") format("eot"), url("fonts/omnes-regular-webfont.woff2") format("woff2"), url("fonts/omnes-regular-webfont.woff") format("woff"), url("fonts/omnes-regular-webfont.ttf") format("truetype"), url("fonts/omnes-regular-webfont.svg#omnes-regular") format("svg"); }
+@font-face {
+  font-family: "omnes-light";
+  src: url("fonts/omnes-light-webfont.eot?") format("eot"), url("fonts/omnes-light-webfont.woff2") format("woff2"), url("fonts/omnes-light-webfont.woff") format("woff"), url("fonts/omnes-light-webfont.ttf") format("truetype"), url("fonts/omnes-light-webfont.svg#omnes-light") format("svg"); }
+@font-face {
+  font-family: "omnes-mediumitalic";
+  src: url("fonts/omnes-mediumitalic-webfont.eot?") format("eot"), url("fonts/omnes-mediumitalic-webfont.woff2") format("woff2"), url("fonts/omnes-mediumitalic-webfont.woff") format("woff"), url("fonts/omnes-mediumitalic-webfont.ttf") format("truetype"), url("fonts/omnes-mediumitalic-webfont.svg#omnes-mediumitalic") format("svg"); }
+@font-face {
+  font-family: "omnes-medium-webfont";
+  src: url("fonts/omnes-medium-webfont.eot?") format("eot"), url("fonts/omnes-medium-webfont.woff2") format("woff2"), url("fonts/omnes-medium-webfont.woff") format("woff"), url("fonts/omnes-medium-webfont.ttf") format("truetype"), url("fonts/omnes-medium-webfont.svg#omnes-medium-webfont") format("svg"); }
+@font-face {
+  font-family: "gotham-medium";
+  src: url("fonts/gotham-medium.eot?") format("eot"), url("fonts/gotham-medium.woff2") format("woff2"), url("fonts/gotham-medium.woff") format("woff"), url("fonts/gotham-medium.ttf") format("truetype"), url("fonts/gotham-medium.svg#gotham-medium") format("svg"); }
+body {
+  background: #f1f1f1;
+  font-family: "omnes-medium";
+  color: #001111;
+  font-size: 1em; }
+
+.header, section {
+  background: #fff;
+  max-width: 1600px;
+  margin: 0 auto; }
+
+.header {
+  min-height: 6em; }
+  .header .logo {
+    float: left;
+    width: 5em;
+    height: 2em;
+    margin: 2em 0 0 13em;
+    line-height: 2em;
+    text-align: center; }
+    .header .logo a {
+      font-family: "gotham-medium";
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 1.2em;
+      color: #001111; }
+  .header .main-menu {
+    float: right;
+    margin: 2em 0;
+    line-height: 2em;
+    width: 60%; }
+    .header .main-menu .nav_link {
+      margin: 0 3% 0;
+      text-decoration: none;
+      font-family: "gotham-medium";
+      color: #001111;
+      text-transform: uppercase;
+      font-size: 0.7em;
+      float: left; }
+    .header .main-menu .search {
+      min-width: 5em;
+      width: 10%;
+      float: left;
+      height: 2em;
+      position: relative; }
+      .header .main-menu .search input {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: relative;
+        border: none;
+        -webkit-box-shadow: inset 0px -2px 0px 0px #eaeaea;
+        -moz-box-shadow: inset 0px -2px 0px 0px #eaeaea;
+        box-shadow: inset 0px -2px 0px 0px #eaeaea;
+        -webkit-appearance: none;
+        -moz-appearance: none; }
+        .header .main-menu .search input:focus {
+          -webkit-appearance: none;
+          -moz-appearance: none; }
+      .header .main-menu .search button {
+        position: absolute;
+        display: block;
+        right: 0;
+        top: 0;
+        width: 1em;
+        height: 1em;
+        border: none;
+        -webkit-appearance: none;
+        -moz-appearance: none; }
+        .header .main-menu .search button:focus {
+          -webkit-appearance: none;
+          -moz-appearance: none; }
+
+/*# sourceMappingURL=style.css.map */
