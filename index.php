@@ -54,7 +54,7 @@
                             <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
                       </div>
                       <div class="sect active">
-                           <div class="icon">
+                           <div class="icon active">
                                
                            </div>
                            <h2>design</h2>
@@ -73,7 +73,23 @@
     </section>
     <section class="con content">
              <div class="con form">
-                 
+                  <div class="int">
+                       <div class="main">
+                            <form id="comment" class="gb-sign">
+                                  <h3>Get in touch.</h3>
+                                  <p>Lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor.</p>
+                                  <label><p>What’s your name?</p>
+                                         <input id="name" type="text" name="name" value="" placeholder="your name..."/>
+                                  </label>
+                                  <label><p>What’s your email?</p>
+                                         <input id="email" type="email" name="email" value="" placeholder="your email..."/>
+                                  </label>
+                                  <label><p>What’s on your mind?</p>
+                                        <textarea name="mess" cols="10" rows="5" placeholder="your message..."></textarea>
+                                  </label>
+                            </form>
+                       </div>
+                  </div>
              </div>
     </section>
     </body>

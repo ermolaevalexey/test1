@@ -15,6 +15,10 @@ body {
 
 }
 
+.clr {
+	clear: both;
+}
+
 .con {
 	width:100%;
 	float:left;
@@ -23,6 +27,11 @@ body {
 		margin: 0 auto;
 		max-width: 1600px;
 		background: $block-bg;
+		.main {
+			float: left;
+			width: 100%;
+			background: $block-bg;
+		}
 	}
 }
 
@@ -117,25 +126,20 @@ body {
 }
 
 .con.main {
-	.main {
-		float: left;
-		width: 100%;
-		background: $block-bg;
-	}
 	.sect {
 		width: calc(100%/3);
 		float: left;
 		margin: $mth + 2 auto;
 		&.active{
 			.icon {
-				background: $select-bg;
+				background: url(../img/img-wh.svg) no-repeat 50% 50% /15%, $select-bg;
 			}
 		}
 		.icon {
 			width: 180px;
 			height: 180px;
 			margin: 0 auto;
-			background:$input-bg;
+			background:url(../img/img.svg) no-repeat 50% 50% /15%, $input-bg;
 			border-radius: 50%;
 		}
 		h2{
@@ -156,6 +160,40 @@ body {
 			font-size: 0.9em;
 			line-height: 1.5em;
 		}
+	}
+}
+
+.con.form {
+	margin: $mth+2 auto;
+	.int{
+		background: transparent;
+		.main {
+			background: transparent;
+		}
+	}
+	.gb-sign {
+		display: block;
+		width: 30%;
+		margin: 0 auto;
+		background: $block-bg;
+		h3{
+			font-family: $omr;
+			font-size: 3em;
+			text-align: center;
+			clear: both;
+			float: left;
+			margin: $mth auto;
+			width: 100%;
+		}
+		&>p:nth-of-type(1){
+			font-family: $oml;
+			text-align: center;
+			padding: 0 8em 2em;
+		}
+		label p {
+			text-align: center;
+		}
+
 	}
 }
 

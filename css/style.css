@@ -57,6 +57,9 @@ body {
   color: #001111;
   font-size: 1em; }
 
+.clr {
+  clear: both; }
+
 .con {
   width: 100%;
   float: left;
@@ -65,6 +68,10 @@ body {
     margin: 0 auto;
     max-width: 1600px;
     background: #fff; }
+    .con .int .main {
+      float: left;
+      width: 100%;
+      background: #fff; }
 
 .header {
   min-height: 6em;
@@ -145,21 +152,17 @@ body {
       float: left;
       margin: -0.5em 2em; }
 
-.con.main .main {
-  float: left;
-  width: 100%;
-  background: #fff; }
 .con.main .sect {
   width: calc(100%/3);
   float: left;
   margin: 4em auto; }
   .con.main .sect.active .icon {
-    background: #efc94c; }
+    background: url(../img/img-wh.svg) no-repeat 50% 50%/15%, #efc94c; }
   .con.main .sect .icon {
     width: 180px;
     height: 180px;
     margin: 0 auto;
-    background: #eaeaea;
+    background: url(../img/img.svg) no-repeat 50% 50%/15%, #eaeaea;
     border-radius: 50%; }
   .con.main .sect h2 {
     font-size: 1.3em;
@@ -177,5 +180,29 @@ body {
     margin: 0 auto;
     font-size: 0.9em;
     line-height: 1.5em; }
+
+.con.form {
+  margin: 4em auto; }
+  .con.form .int {
+    background: transparent; }
+    .con.form .int .main {
+      background: transparent; }
+  .con.form .gb-sign {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    background: #fff; }
+    .con.form .gb-sign h3 {
+      font-family: "omnes-regular";
+      font-size: 3em;
+      text-align: center;
+      clear: both;
+      float: left;
+      margin: 2em auto;
+      width: 100%; }
+    .con.form .gb-sign > p:nth-of-type(1) {
+      font-family: "omnes-light";
+      text-align: center;
+      padding: 0 8em 2em; }
 
 /*# sourceMappingURL=style.css.map */
