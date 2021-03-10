@@ -1,3 +1,4 @@
 $(document).ready(function(){
-	//alert("hello!");
+	alert("hello!");
+	console.log('MOO');
 });
